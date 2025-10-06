@@ -1,0 +1,61 @@
+/* ---------- General Styling ---------- */
+body {
+  margin: 20px;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: crimson;
+}
+
+img {
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+hr {
+  border: 1px solid #ddd;
+}
+
+/* ---------- Task 3: Selectors ---------- */
+
+/* Tag selector */
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Class selector */
+.highlight {
+  background-color: #fff3cd;
+  color: #2d3436;
+  padding: 6px;
+  border-radius: 5px;
+  border-left: 4px solid #f39c12;
+}
+
+/* ID selector */
+#mainTitle {
+  color: darkred;
+  text-align: center;
+  border-bottom: 3px solid darkred;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Group selector */
+h2, h3 {
+  color: navy;
+}
